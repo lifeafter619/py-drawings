@@ -27,6 +27,7 @@ def line():
 
 def reset():
     t.reset
+    t.pensize(2.5)
     t.speed(speed)
     t.bgpic('海底.gif')
 
@@ -47,19 +48,14 @@ def ballon(p1,f1):
 #执行
 reset()
 
-ballon('blue','red')
+ballon('yellow','red')
 t.penup()
-t.goto(100,-100)
+t.goto(-300,250)
 t.pendown()
 
-ballon('white','blue')
+ballon('white','red')
 t.penup()
-t.goto(200,-200)
-t.pendown()
-
-ballon('gold','grey')
-t.penup()
-t.goto(300,-300)
+t.goto(600,0)
 t.pendown()
 
 t.done()
