@@ -61,7 +61,7 @@ if __name__ == '__main__':
     root = tk.Tk()
     cv = tk.Canvas(root, height=HEIGHT, width=WIDTH)
     # 选一个好看的背景会让效果更惊艳！
-    image = Image.open("./海底.gif")
+    image = Image.open("./圣诞2.gif")
     photo = ImageTk.PhotoImage(image)
 
     cv.create_image(0, 0, image=photo, anchor='nw')
